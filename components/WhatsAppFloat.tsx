@@ -12,7 +12,7 @@ export default function WhatsAppFloat() {
     }
   }, []);
 
-  const whatsappUrl = `https://wa.me/${phoneNumber.replace(/[^0-9]/g, '')}`;
+  const whatsappUrl = `https://wa.me/${phoneNumber.replace(/[0967882708]/g, '')}`;
 
   return (
     <a
